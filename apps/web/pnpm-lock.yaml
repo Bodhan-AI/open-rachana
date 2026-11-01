@@ -21,7 +21,7 @@ importers:
         version: 3.3.0
       '@sarvam/tatva':
         specifier: file:../../design-system/tatva/sarvam-tatva-0.0.34.tgz
-        version: file:../../design-system/tatva/sarvam-tatva-0.0.34.tgz(@types/mdast@4.0.4)(@types/react-dom@19.2.7(@types/react@19.2.18))(@types/react@19.2.18)(ai@5.0.52(zod@3.25.76))(micromark-util-types@2.0.2)(micromark@4.0.2)(react-dom@19.2.4(react@19.2.4))(react-hook-form@7.71.1(react@19.2.4))(react@19.2.4)(sonner@2.0.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tailwindcss@3.4.19)(unified@11.0.5)(zod@3.25.76)
+        version: file:../../design-system/tatva/sarvam-tatva-0.0.34.tgz(@types/mdast@4.0.4)(@types/react-dom@19.2.7(@types/react@19.2.18))(@types/react@19.2.18)(ai@5.0.52(zod@4.6.6))(micromark-util-types@2.0.2)(micromark@4.0.2)(react-dom@19.2.4(react@19.2.4))(react-hook-form@7.71.1(react@19.2.4))(react@19.2.4)(sonner@2.0.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tailwindcss@3.4.19)(unified@11.0.5)(zod@4.6.6)
       next:
         specifier: 16.3.3
         version: 16.3.3(@babel/core@7.29.7)(@opentelemetry/api@1.9.0)(@types/node@20.19.43)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -38,8 +38,8 @@ importers:
         specifier: 2.0.7
         version: 2.0.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       zod:
-        specifier: 3.25.76
-        version: 3.25.76
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -3809,8 +3809,8 @@ packages:
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
 
-  zod@3.25.76:
-    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
   zustand@4.5.7:
     resolution: {integrity: sha512-CHOUy7mu3lbD6o6LJLfllpjkzhHXSBlX8B9+qPddUsIfeF5S/UZ5q0kmCsnRqT1UHFQZchNFDDzMbQsuesHWlw==}
@@ -3832,18 +3832,18 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/gateway@1.0.29(zod@3.25.76)':
+  '@ai-sdk/gateway@1.0.29(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
-      '@ai-sdk/provider-utils': 3.0.28(zod@3.25.76)
-      zod: 3.25.76
+      '@ai-sdk/provider-utils': 3.0.28(zod@4.6.6)
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@3.0.28(zod@3.25.76)':
+  '@ai-sdk/provider-utils@3.0.28(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 2.0.3
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.1.1
-      zod: 3.25.76
+      zod: 4.6.6
 
   '@ai-sdk/provider@2.0.0':
     dependencies:
@@ -4725,7 +4725,7 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@sarvam/tatva@file:../../design-system/tatva/sarvam-tatva-0.0.34.tgz(@types/mdast@4.0.4)(@types/react-dom@19.2.7(@types/react@19.2.18))(@types/react@19.2.18)(ai@5.0.52(zod@3.25.76))(micromark-util-types@2.0.2)(micromark@4.0.2)(react-dom@19.2.4(react@19.2.4))(react-hook-form@7.71.1(react@19.2.4))(react@19.2.4)(sonner@2.0.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tailwindcss@3.4.19)(unified@11.0.5)(zod@3.25.76)':
+  '@sarvam/tatva@file:../../design-system/tatva/sarvam-tatva-0.0.34.tgz(@types/mdast@4.0.4)(@types/react-dom@19.2.7(@types/react@19.2.18))(@types/react@19.2.18)(ai@5.0.52(zod@4.6.6))(micromark-util-types@2.0.2)(micromark@4.0.2)(react-dom@19.2.4(react@19.2.4))(react-hook-form@7.71.1(react@19.2.4))(react@19.2.4)(sonner@2.0.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tailwindcss@3.4.19)(unified@11.0.5)(zod@4.6.6)':
     dependencies:
       '@hookform/resolvers': 3.10.0(react-hook-form@7.71.1(react@19.2.4))
       '@hugeicons/core-free-icons': 3.3.0
@@ -4748,7 +4748,7 @@ snapshots:
       '@tailwindcss/container-queries': 0.1.1(tailwindcss@3.4.19)
       '@tanstack/react-table': 8.21.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@xyflow/react': 12.11.6(@types/react-dom@19.2.7(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      ai: 5.0.52(zod@3.25.76)
+      ai: 5.0.52(zod@4.6.6)
       ansi-to-react: 6.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       class-variance-authority: 0.7.1
       cmdk: 1.1.1(@types/react-dom@19.2.7(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -4772,7 +4772,7 @@ snapshots:
       tokenlens: 1.3.1
       use-stick-to-bottom: 1.1.6(react@19.2.4)
       wavesurfer.js: 7.12.11
-      zod: 3.25.76
+      zod: 4.6.6
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.63.1
       '@rollup/rollup-darwin-x64': 4.63.1
@@ -5311,13 +5311,13 @@ snapshots:
 
   acorn@8.18.0: {}
 
-  ai@5.0.52(zod@3.25.76):
+  ai@5.0.52(zod@4.6.6):
     dependencies:
-      '@ai-sdk/gateway': 1.0.29(zod@3.25.76)
+      '@ai-sdk/gateway': 1.0.29(zod@4.6.6)
       '@ai-sdk/provider': 2.0.0
-      '@ai-sdk/provider-utils': 3.0.28(zod@3.25.76)
+      '@ai-sdk/provider-utils': 3.0.28(zod@4.6.6)
       '@opentelemetry/api': 1.9.0
-      zod: 3.25.76
+      zod: 4.6.6
 
   ajv@6.15.0:
     dependencies:
@@ -6127,8 +6127,8 @@ snapshots:
       '@babel/parser': 7.29.8
       eslint: 9.39.5(jiti@1.21.7)
       hermes-parser: 0.25.1
-      zod: 3.25.76
-      zod-validation-error: 4.0.2(zod@3.25.76)
+      zod: 4.6.6
+      zod-validation-error: 4.0.2(zod@4.6.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -8407,11 +8407,11 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-validation-error@4.0.2(zod@3.25.76):
+  zod-validation-error@4.0.2(zod@4.6.6):
     dependencies:
-      zod: 3.25.76
+      zod: 4.6.6
 
-  zod@3.25.76: {}
+  zod@4.6.6: {}
 
   zustand@4.5.7(@types/react@19.2.18)(react@19.2.4):
     dependencies:
